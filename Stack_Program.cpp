@@ -5,7 +5,7 @@ class Stack
 public: 
     int size = 2;     // initial size the stack
     int count = 0;
-    int* stack = new int[size];    // dinamic allocation memory for 
+    int* stack = new int[size];  
     int NewSize = size + 10;    // stack size when we want more size to push the elements
     int* DinamicStack = new int[NewSize];
 
